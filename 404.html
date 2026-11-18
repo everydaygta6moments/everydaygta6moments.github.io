@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Not found · Everyday GTA6 Moments</title>
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#120c22;color:#f6eef7;font:17px/1.5 system-ui,sans-serif;text-align:center}
+  h1{font-size:72px;margin:0;background:linear-gradient(90deg,#a47cad,#e091a7,#f8b384);-webkit-background-clip:text;background-clip:text;color:transparent}
+  a{color:#ffc36b}
+</style>
+</head>
+<body>
+<main><h1>404</h1><p>This page took a wrong turn off the highway.</p><p><a id="home" href="/">Back to the homepage</a></p></main>
+<script>
+  // GitHub project sites live under /<repo>/, user sites at /. Guess the root from the host.
+  var seg = location.pathname.split("/")[1];
+  if (location.hostname.endsWith("github.io") && seg && location.hostname.split(".")[0] !== seg) document.getElementById("home").href = "/" + seg + "/";
+</script>
+</body>
+</html>
