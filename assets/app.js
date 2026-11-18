@@ -122,7 +122,7 @@
       '<h1>The best of GTA 6 streams, <span class="grad-text">clipped every day.</span></h1>' +
       '<p class="lead">Chases, fails, heists and the reactions that go with them, cut from the biggest English and Polish streamers minutes after they happen. Vertical, captioned and credited.</p>' +
       '<div class="hero-actions"><a class="btn btn-primary" href="#channels" data-link>Follow the channels</a><a class="btn" href="#submit" data-link>' + I.mail + "Send us a moment</a></div>" +
-      '<div class="stats"><div><strong>15</strong>streams watched live</div><div><strong>~2 min</strong>from moment to clip</div><div><strong>2</strong>languages, EN + PL</div></div>' +
+      '<div class="stats"><div><strong>~2 min</strong>from moment to clip</div><div><strong>2</strong>languages, EN + PL</div></div>' +
       "</div>" + phone() + "</div></section>" +
 
       '<section class="band" id="how"><div class="wrap"><div class="section-head reveal"><span class="kicker">// How it works</span><h2>From a chat explosion to your feed.</h2>' +
